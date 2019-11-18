@@ -1,0 +1,23 @@
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+  http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping>
+        <class-a>model.Parent</class-a>
+        <class-b>dto.ParentDto</class-b>
+        <field>
+            <a>dateOfBirth</a>
+            <b date-format="dd-MM-yyyy">birthDay</b>
+        </field>
+    </mapping>
+    <mapping>
+        <class-a>model.Child</class-a>
+        <class-b>dto.ChildDto</class-b>
+        <field>
+            <a>dateOfBirth</a>
+            <b date-format="dd-MM-yyyy">birthDay</b>
+        </field>
+    </mapping>
+</mappings>
+
